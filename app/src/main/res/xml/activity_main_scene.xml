@@ -28,7 +28,7 @@
             motion:layout_editor_absoluteX="-8dp">
             <CustomAttribute
                 motion:attributeName="BackgroundColor"
-                motion:customColorValue="#F9F599" />
+                motion:customColorValue="#3f70d7" />
 
         </Constraint>
     </ConstraintSet>
