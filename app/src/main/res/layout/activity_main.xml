@@ -7,6 +7,14 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity" >
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="739dp" />
+
     <com.example.fragmenttransition.utils.TouchFrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
@@ -15,4 +23,5 @@
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.motion.widget.MotionLayout>
